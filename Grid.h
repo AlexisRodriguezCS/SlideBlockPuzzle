@@ -1,6 +1,6 @@
 //  Author Information
 //  Alexis Rodriguez
-// 	Jonah Covarrubias
+//  Jonah Covarrubias
 //  File Information
 
 #include "Movement.h"
