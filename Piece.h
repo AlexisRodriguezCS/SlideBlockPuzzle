@@ -1,6 +1,3 @@
-//  Author Information
-
-//  File Information
 #include <fstream>
 #include <iostream>
 #include <sstream>
