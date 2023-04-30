@@ -1,7 +1,6 @@
 //    Author Information
 //  	Alexis Rodriguez
 // 		Jonah Covarrubias
-//    Program information
 
 #include "Snapshot.h"
 using namespace std;
