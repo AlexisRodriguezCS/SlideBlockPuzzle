@@ -1,15 +1,12 @@
 CXX = g++
-CXXFLAGS = -std=c++11 -g -O2 -fsanitize=undefined -fsanitize=leak -fsanitize=address
+CXXFLAGS = -std=c++11 -O2
 
-all: build run
-
-build: slidingBlock
+build: slidingBlock.cpp Grid.h Piece.h Movement.h 
+	$(if $(filter $(OS),Windows_NT), if exist slidingBlock (del slidingBlock), rm -f slidingBlock)
+	$(CXX) $(CXXFLAGS) -o slidingBlock slidingBlock.cpp Grid.h Piece.h Movement.h -fsanitize=undefined -fsanitize=leak -fsanitize=address
 
 run:
 	./slidingBlock
 
-slidingBlock: slidingBlock.cpp Grid.h Piece.h Movement.h 
-	$(CXX) $(CXXFLAGS) -o slidingBlock slidingBlock.cpp
-
 clean:
-	rm -f slidingBlock *.o
+	rm -f slidingBlock
