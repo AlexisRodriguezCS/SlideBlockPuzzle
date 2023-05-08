@@ -52,7 +52,7 @@ From your command line:
 $ git clone https://github.com/AlexisRodriguezCS/SlideBlockPuzzle.git
 
 # Go into the repository
-$ cd GridWorld
+$ cd SlideBlockPuzzle
 
 # Compile code into an executable
 $ make build
