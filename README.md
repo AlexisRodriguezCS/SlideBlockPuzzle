@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AlexisRodriguezCS/GridWord/main/Images/Grid.jpg" alt="Grid" style="display:block;margin:auto;" height="500">
+  <img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/Puzzle.jpg" alt="Grid" style="display:block;margin:auto;" height="500">
 </p>
 <h1 align="center">Slide Block Puzzle</h1>
 
