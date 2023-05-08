@@ -23,4 +23,62 @@ In order to solve the puzzle, all of the pieces must be moved in a specific orde
 
 To achieve this, a program has been developed that takes a command-line argument, which is the name of a data file that contains all of the necessary information about the puzzle. The program will then output a sequence of moves that give the shortest possible solution to the puzzle. The program is designed to be efficient and fast, using algorithms and strategies that have been optimized to solve the sliding block puzzle as quickly as possible.
 
+Here's an online demo of the project hosted on [repl.it](https://replit.com/@Alexisrz/SlideBlockPuzzle) for you to try out.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+<a name="getting-started"></a>
+## Getting Started
+
+To set up a project locally, follow these simple steps.
+
+### Prerequisites
+
+_Software used to run the program._
+* [Visusal Studio Code](https://code.visualstudio.com/)
+
+* [MinGW](https://sourceforge.net/projects/mingw/)
+
+* [Git](https://git-scm.com/)
+
+### Installation
+_Here's how to install and set up the program._
+
+From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/AlexisRodriguezCS/SlideBlockPuzzle.git
+
+# Go into the repository
+$ cd GridWorld
+
+# Compile code into an executable
+$ make build
+
+# Run the program
+$ make run
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+<a name="usage"></a>
+## Usage
+
+Put Screenshot of commands
+<br>
+Put Commands examples
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+<a name="contact"></a>
+## Contact
+
+Alexis Rodriguez - [LinkedIn](https://www.linkedin.com/in/alexisrodriguezcs/) - alexisrodriguezdev@gmail.com
+
+Project Link: [https://github.com/AlexisRodriguezCS/SlideBlockPuzzle](https://github.com/AlexisRodriguezCS/SlideBlockPuzzle)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
