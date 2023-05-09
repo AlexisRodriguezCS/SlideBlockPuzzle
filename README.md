@@ -82,7 +82,9 @@ $ make run
 `*6657*`
 
 `******`
+
 <br>
+
 `This puzzle is solvable in 5 steps`
 
 `1. Piece 4 moves 1 space(s) up`
@@ -96,6 +98,7 @@ $ make run
 `5. Piece Z moves 2 space(s) right`
 
 <br>
+
 `******`
 
 `*1244*`
