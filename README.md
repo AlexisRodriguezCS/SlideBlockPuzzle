@@ -22,6 +22,8 @@ A sliding block puzzle is a type of game that involves a set of different-shaped
 In order to solve the puzzle, all of the pieces must be moved in a specific order of moves. All pieces in this puzzle can be moved in any direction, either left/right or up/down. The ultimate aim of the game is to find the shortest solution to the puzzle that will move the goal piece to the right-hand side of the game grid, specifically the last column.
 
 To achieve this, a program has been developed that takes a command-line argument, which is the name of a data file that contains all of the necessary information about the puzzle. The program will then output a sequence of moves that give the shortest possible solution to the puzzle. The program is designed to be efficient and fast, using algorithms and strategies that have been optimized to solve the sliding block puzzle as quickly as possible.
+
+
 <img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/start.PNG" alt="starting puzzle">
 
 <img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/result.PNG" alt="starting puzzle">
