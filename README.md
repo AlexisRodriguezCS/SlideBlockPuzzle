@@ -23,6 +23,14 @@ In order to solve the puzzle, all of the pieces must be moved in a specific orde
 
 To achieve this, a program has been developed that takes a command-line argument, which is the name of a data file that contains all of the necessary information about the puzzle. The program will then output a sequence of moves that give the shortest possible solution to the puzzle. The program is designed to be efficient and fast, using algorithms and strategies that have been optimized to solve the sliding block puzzle as quickly as possible.
 
+The initial configuration of the puzzle is presented below, with the goal piece 'Z' positioned on the left-hand side.
+
+<img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/start.PNG" alt="starting puzzle">
+
+This illustrates the resulting state of the puzzle grid after successfully moving the goal piece 'Z' to the right-most column.
+
+<img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/result.PNG" alt="starting puzzle">
+
 Here's an online demo of the project hosted on [repl.it](https://replit.com/@Alexisrz/SlideBlockPuzzle) for you to try out.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,9 +75,59 @@ $ make run
 <a name="usage"></a>
 ## Usage
 
-Put Screenshot of commands
+By default, when executing the command "make run" in the command line, the sliding block puzzle program utilizes the puzzle specified in the data file named "proj3a.data". This data file contains a predefined set of puzzle configurations to be used by the program. Upon successful execution, the program will output the solution to the specified puzzle configuration, along with various metrics such as the number of moves taken to reach the solution, the execution time, and the path taken by the puzzle pieces to reach the solution.
+
+_Output:_
+
+`Welcome to Sliding Block Puzzle`
+
+`Using data from puzzle: .\Data Files\proj3a.data`
+
 <br>
-Put Commands examples
+
+`******`
+
+`*12..*`
+
+`*3.44*`
+
+`*ZZ5.*`
+
+`*6657*`
+
+`******`
+
+<br>
+
+`This puzzle is solvable in 5 steps`
+
+`1. Piece 4 moves 1 space(s) up`
+
+`2. Piece 3 moves 3 space(s) right`
+
+`3. Piece Z moves 1 space(s) up`
+
+`4. Piece 3 moves 1 space(s) down`
+
+`5. Piece Z moves 2 space(s) right`
+
+<br>
+
+`******`
+
+`*1244*`
+
+`*..ZZ*`
+
+`*..53*`
+
+`*6657*`
+
+`******`
+
+<br>
+
+If you wish to use a different data file to run the sliding block puzzle program, you must specify the desired file name in the command prompt after calling the program executable, which is located in the same directory as the data files. Specifically, you would enter the following command into the terminal: `.\slidingBlock.exe '.\Data Files\<filename>'`. This will allow the program to read and execute the puzzle configuration instructions provided in the new data file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
