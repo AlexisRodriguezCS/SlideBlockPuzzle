@@ -37,7 +37,7 @@ class Grid {
    *
    * return:  void
    */
-  void print() {
+  void printGrid() {
     // Top row of stars
     cout << string(columns + 2, '*') << endl;
     // Prints all the values
