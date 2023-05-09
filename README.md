@@ -67,9 +67,29 @@ $ make run
 <a name="usage"></a>
 ## Usage
 
-Put Screenshot of commands
-<br>
-Put Commands examples
+`Welcome to Sliding Block Puzzle`
+`Using data from puzzle: .\Data Files\proj3a.data`
+
+`******`
+`*12..*`
+`*3.44*`
+`*ZZ5.*`
+`*6657*`
+`******`
+
+`This puzzle is solvable in 5 steps`
+`1. Piece 4 moves 1 space(s) up`
+`2. Piece 3 moves 3 space(s) right`
+`3. Piece Z moves 1 space(s) up`
+`4. Piece 3 moves 1 space(s) down`
+`5. Piece Z moves 2 space(s) right`
+
+`******`
+`*1244*`
+`*..ZZ*`
+`*..53*`
+`*6657*`
+`******`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
