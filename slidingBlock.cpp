@@ -164,7 +164,7 @@ int main(int argc, char** argv) {
     exit(0);
   }
 
-  cout << "Welcome to Sliding Block Puzzle\n";
+  cout << "\nWelcome to Sliding Block Puzzle\n";
   cout << "Using data from puzzle: " << argv[1] << endl;
 
   bool done = false;
@@ -197,8 +197,9 @@ int main(int argc, char** argv) {
   }
 
   //  print out initial puzzle configuration
+  cout << endl;
   grid.printGrid();
-
+  cout << endl;
   //  find solution if one exists
   Snapshot solution = BFS(grid);
   int i = 1;
@@ -209,6 +210,7 @@ int main(int argc, char** argv) {
       cout << i << ". " << str << endl;
       i++;
     }
+    cout << endl;
     printLayout(rows, columns, solution.getPieceLayout());
   } else {
     cout << "This puzzle has no solution" << endl;
