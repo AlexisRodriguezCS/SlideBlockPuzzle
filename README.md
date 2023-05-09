@@ -116,7 +116,7 @@ By default, when executing the command "make run" in the command line, the slidi
 `******`
 
 
-If you wish to use a different data file to run the sliding block puzzle program, you must specify the desired file name in the command prompt after calling the program executable, which is located in the same directory as the data files. Specifically, you would enter the following command into the terminal: `.\slidingBlock.exe '.\Data Files\<filename>'`. This will allow the program to read and execute the puzzle configuration instructions provided in the new data file, providing a new and unique challenge for the user to solve.
+If you wish to use a different data file to run the sliding block puzzle program, you must specify the desired file name in the command prompt after calling the program executable, which is located in the same directory as the data files. Specifically, you would enter the following command into the terminal: `.\slidingBlock.exe '.\Data Files\<filename>'`. This will allow the program to read and execute the puzzle configuration instructions provided in the new data file.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
