@@ -71,6 +71,8 @@ $ make run
 
 `Using data from puzzle: .\Data Files\proj3a.data`
 
+<br>
+
 `******`
 
 `*12..*`
