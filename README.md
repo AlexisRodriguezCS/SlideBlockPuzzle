@@ -23,7 +23,7 @@ In order to solve the puzzle, all of the pieces must be moved in a specific orde
 
 To achieve this, a program has been developed that takes a command-line argument, which is the name of a data file that contains all of the necessary information about the puzzle. The program will then output a sequence of moves that give the shortest possible solution to the puzzle. The program is designed to be efficient and fast, using algorithms and strategies that have been optimized to solve the sliding block puzzle as quickly as possible.
 
-Displayed below is the puzzle's starting state.
+The initial configuration of the puzzle is presented below, with the goal piece z positioned on the left-hand side.
 
 <img src="https://raw.githubusercontent.com/AlexisRodriguezCS/SlideBlockPuzzle/main/Images/start.PNG" alt="starting puzzle">
 
