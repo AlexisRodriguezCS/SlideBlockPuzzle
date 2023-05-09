@@ -69,6 +69,7 @@ $ make run
 
 By default, when executing the command "make run" in the command line, the sliding block puzzle program utilizes the puzzle specified in the data file named "proj3a.data". This data file contains a predefined set of puzzle configurations to be used by the program. Upon successful execution, the program will output the solution to the specified puzzle configuration, along with various metrics such as the number of moves taken to reach the solution, the execution time, and the path taken by the puzzle pieces to reach the solution.
 
+_Output:_
 `Welcome to Sliding Block Puzzle`
 
 `Using data from puzzle: .\Data Files\proj3a.data`
