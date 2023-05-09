@@ -6,7 +6,7 @@ build: slidingBlock.cpp Grid.h Piece.h Movement.h
 	$(CXX) $(CXXFLAGS) -o slidingBlock slidingBlock.cpp Grid.h Piece.h Movement.h
 
 run:
-	./slidingBlock
+	.\slidingBlock.exe '.\Data Files\proj3a.data'
 
 clean:
 	rm -f slidingBlock
